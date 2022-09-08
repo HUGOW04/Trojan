@@ -1,6 +1,10 @@
 # Trojan
-![Capt![Help](https://user-images.githubusercontent.com/54809176/189189093-8bf0660a-d8e1-4553-b2d9-7fefa8361015.PNG)
-ure](https://user-images.githubusercontent.com/54809176/189189083-33bfdeac-814f-4329-89b2-2892ee71affa.PNG)
+
+![Capture](https://user-images.githubusercontent.com/54809176/189189190-cfb68d41-0cb7-49c3-a592-433d22b3fdc6.PNG)
+
+
+![Help](https://user-images.githubusercontent.com/54809176/189189155-75e5ec95-f737-4dad-9c0b-6da2829009d7.PNG)
+
 
 ## Legal warning
 Software can by use only to educationals targets. If you will use this like real virus, you could go to jail. Author do not responsible for the misuse of the software by others.

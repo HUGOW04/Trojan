@@ -1,9 +1,8 @@
 # Trojan
 
-![Capture](https://user-images.githubusercontent.com/54809176/189189190-cfb68d41-0cb7-49c3-a592-433d22b3fdc6.PNG)
+![Capture](https://user-images.githubusercontent.com/54809176/193475217-fee199e1-ef9b-4ac8-a3d3-749fe261e753.png)
 
-
-![Help](https://user-images.githubusercontent.com/54809176/189189155-75e5ec95-f737-4dad-9c0b-6da2829009d7.PNG)
+![Help](https://user-images.githubusercontent.com/54809176/193475250-ef5d281c-73f6-4ecc-b19c-15bd6655b04f.png)
 
 
 ## Legal warning

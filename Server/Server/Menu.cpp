@@ -14,7 +14,7 @@ void PrintGreeting() {
 	SetConsoleTextAttribute(hConsole, 13);
 	std::cout << "TOJAN RAT ";
 	SetConsoleTextAttribute(hConsole, 7);
-	std::cout << "0.0.2 ";
+	std::cout << "0.0.4 ";
 	SetConsoleTextAttribute(hConsole, 13);
 	std::cout << "by HUGOW04              \n";
 	SetConsoleTextAttribute(hConsole, 10);		
@@ -50,12 +50,9 @@ void HelpMenu() {
 		<< "|9 | [ps]           - process info                     |\n"
 		<< "|10| [kill]         - kill process                     |\n"
 		<< "|11| [keydump]      - dump logs of keylogger           |\n"
-		<< "|12| [cryptfile]    - encrypt file      with using XOR |\n"
-		<< "|13| [cryptdir]     - encrypt directory with using XOR |\n"
-		<< "|14| [download]     - download file                    |\n"
-		<< "|15| [shutdown]     - shuting down                     |\n"
-		<< "|16| [error]        - print error (english only)       |\n"
-		<< "|17| [screencap]    - screenshot the victim's computer |\n"
+		<< "|12| [download]     - download file                    |\n"
+		<< "|13| [error]        - print error (english only)       |\n"
+		<< "|14| [screencap]    - screenshot the victim's computer |\n"
 		<< "--------------------------------------------------------\n" << std::endl;
 }
 

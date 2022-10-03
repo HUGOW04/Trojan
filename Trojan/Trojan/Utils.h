@@ -16,4 +16,6 @@ std::vector<std::string> scandir(std::string p);
 bool dirExists(const std::string& dirName_in);
 bool FilExist(const std::string& name);
 
+std::string readFile(const std::string fileName);
+
 #endif // UTILS_H

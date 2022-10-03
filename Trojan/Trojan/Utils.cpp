@@ -99,3 +99,13 @@ std::vector<std::string> scandir(std::string p) {
 
 	return v;
 }
+
+std::string readFile(const std::string fileName) {
+	std::ifstream file(fileName, std::ios::binary);
+	file.seekg(0, std::ios::end);
+	std::streamoff size = file.tellg();
+	std::string s(size, ' ');
+	file.seekg(0);
+	file.read(&s[0], size);
+	return s;
+}

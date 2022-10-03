@@ -18,9 +18,6 @@
     <ClCompile Include="Autorun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Crypt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Info.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,9 +42,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Crypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Info.h">

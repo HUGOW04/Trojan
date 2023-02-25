@@ -9,7 +9,7 @@ Unlike computer viruses, worms, and rogue security software, trojans generally d
 ![Capture](https://user-images.githubusercontent.com/54809176/193475217-fee199e1-ef9b-4ac8-a3d3-749fe261e753.png)
 
 
-![Help](https://user-images.githubusercontent.com/54809176/193475267-69c2b760-ff36-4468-a7c7-8ff451315843.png)
+![Help](https://user-images.githubusercontent.com/54809176/221365745-66a58763-01bb-42f4-ac25-54bf2a7f832c.png)
 
 
 ## Legal warning

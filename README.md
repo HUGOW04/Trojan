@@ -6,11 +6,7 @@ Trojans generally spread by some form of social engineering; for example, where 
 
 Unlike computer viruses, worms, and rogue security software, trojans generally do not attempt to inject themselves into other files or otherwise propagate themselves.
 
-![Capture](https://user-images.githubusercontent.com/54809176/193475217-fee199e1-ef9b-4ac8-a3d3-749fe261e753.png)
-
-
-![Screenshot 2023-05-12 172239](https://github.com/HUGOW04/Trojan/assets/54809176/d1bacd7d-03f2-4717-8189-e0e112d9fe0e)
-
+![test](https://github.com/HUGOW04/Trojan/assets/54809176/196c442d-4259-4ee4-a34e-716c5d9c3064)
 
 
 ## Legal warning

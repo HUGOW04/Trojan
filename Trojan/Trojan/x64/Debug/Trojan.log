@@ -1,0 +1,20 @@
+﻿  Main.cpp
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(103,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(121,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(139,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(151,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(157,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(168,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(177,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(186,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(203,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(209,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(243,51): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(271,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(279,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(285,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(288,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(291,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(321,19): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\Visual Studio\Trojan\Trojan\Trojan\Main.cpp(388,50): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Trojan.vcxproj -> D:\Visual Studio\Trojan\Trojan\x64\Debug\Trojan.exe

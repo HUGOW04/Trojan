@@ -1,6 +1,0 @@
-﻿  Server.cpp
-D:\Visual Studio\Trojan\Server\Server\Server.cpp(68,6): warning C4551: function call missing argument list
-D:\Visual Studio\Trojan\Server\Server\Server.cpp(245,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\Visual Studio\Trojan\Server\Server\Server.cpp(279,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\Visual Studio\Trojan\Server\Server\Server.cpp(292,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Server.vcxproj -> D:\Visual Studio\Trojan\Server\x64\Debug\Server.exe
